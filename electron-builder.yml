@@ -1,0 +1,19 @@
+appId: com.txy.manager
+productName: 腾讯云管理器
+directories:
+  output: release3
+  buildResources: resources
+files:
+  - dist-electron/**/*
+  - dist/**/*
+  - package.json
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: resources/icon.png
+  signAndEditExecutable: false
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
