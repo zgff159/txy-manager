@@ -2,6 +2,8 @@
 
 一个管理多个腾讯云账号的桌面应用，基于 Electron + React + TypeScript 构建。
 
+![screenshot](screenshot.png)
+
 ## 功能
 
 - **多账号管理** — 添加、切换多个腾讯云账号，密钥使用系统级加密存储（DPAPI / Keychain）
